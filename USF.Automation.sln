@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USF.Automation.CrossWalk.Test", "CrosswalkUIAutomation\USF.Automation.CrossWalk.Test.csproj", "{548195B1-E974-4230-98E2-CE9AB74319AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USFAutomation", "USFAutomation", "{AA9C2462-62C5-49B7-A13C-BC7B15A269B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "USFAutomationtest", "USFAutomationtest", "{FD41AA60-435E-4994-B820-F1A1FEF116C2}"
+	ProjectSection(SolutionItems) = preProject
+		CrosswalkUIAutomation\packages.config = CrosswalkUIAutomation\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USFAutomationFramework", "USF.Automation.Framework\USFAutomationFramework.csproj", "{8BFBD27C-F0F6-4A2F-9361-658D1397F49F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{548195B1-E974-4230-98E2-CE9AB74319AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{548195B1-E974-4230-98E2-CE9AB74319AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{548195B1-E974-4230-98E2-CE9AB74319AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{548195B1-E974-4230-98E2-CE9AB74319AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BFBD27C-F0F6-4A2F-9361-658D1397F49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BFBD27C-F0F6-4A2F-9361-658D1397F49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BFBD27C-F0F6-4A2F-9361-658D1397F49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BFBD27C-F0F6-4A2F-9361-658D1397F49F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{548195B1-E974-4230-98E2-CE9AB74319AB} = {FD41AA60-435E-4994-B820-F1A1FEF116C2}
+		{8BFBD27C-F0F6-4A2F-9361-658D1397F49F} = {AA9C2462-62C5-49B7-A13C-BC7B15A269B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A3F0C99-EC92-455D-B0AB-1FA113E07F3E}
+	EndGlobalSection
+EndGlobal
